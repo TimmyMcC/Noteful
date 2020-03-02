@@ -4,7 +4,6 @@ import NoteContext from '../NoteContext'
 import config from '../config'
 import ValidationError from '../ValidationError'
 import PropTypes from 'prop-types'
-import './AddNote.css'
 
 export default class AddNote extends Component {
   static defaultProps = {
